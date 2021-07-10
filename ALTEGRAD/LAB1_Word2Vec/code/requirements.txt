@@ -1,0 +1,6 @@
+nltk
+tqdm
+matplotlib
+numpy
+beautifulsoup4
+scikit_learn
