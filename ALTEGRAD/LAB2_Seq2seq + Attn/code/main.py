@@ -6,8 +6,7 @@ from torch.utils import data
 
 # = = = = = = = = = = =
 
-#path_root = '/content/lab2_for_moodle/for_moodle/'
-path_root = "/home/mahdo/Desktop/ALTEGRAD_LABS/LAB2_Seq2seq + Attn/"
+path_root = '/content/lab2_for_moodle/for_moodle/'
 
 path_to_model = path_root + '/code/'
 sys.path.insert(0, path_to_model)
@@ -88,7 +87,7 @@ if not is_prod:
 else:
     
     #model = seq2seqModel.load(path_to_save_models + 'pretrained_moodle.pt')
-    model = seq2seqModel.load(path_to_save_models + 'pretrained_moodle.pt')
+    model = seq2seqModel.load(path_to_save_models + 'my_model.pt')
     
     to_test = ['I am a student.',
                'I have a red car.',  # inversion captured
